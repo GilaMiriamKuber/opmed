@@ -1,0 +1,63 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .date-picker {
+    margin-bottom: 20px;
+  }
+  
+  .date-input {
+    width: 50%;
+    height: 50px;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid rgb(31, 65, 54);
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .staff-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .data-table {
+    width: 80%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th,
+  .data-table td {
+    border: 1px solid rgb(31, 53, 65);
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .data-table th {
+    background-color:rgb(92, 165, 181);
+  }
+  
+  .no-data-text {
+    margin-top: 20px;
+    color: rgb(23, 13, 99);
+  }
+  .staff-info {
+    margin-bottom: 10px; /* Adjust the margin to create space between elements */
+  }
+*{
+        background-color: rgb(215, 244, 252);
+}  
+.room_id{
+        background-color: rgb(142, 215, 231) ;
+}
